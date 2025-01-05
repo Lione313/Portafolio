@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html{
+    background-color: #0a0a0a;
+
+}
+
+@keyframes wave {
+    0% { transform: translateY(0); }
+    20% { transform: translateY(-20px); }
+    40% { transform: translateY(10px); }
+    60% { transform: translateY(0); }
+    80% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .wave .char {
+    display: inline-block;
+    animation: wave 2s ease-in-out infinite;
+  }
+  
+  .wave .char:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .wave .char:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .wave .char:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+
+  
+
+.typing-span span {
+  display: inline-block;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 4s steps(30, end) infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s steps(2, start) infinite;
+}
+
