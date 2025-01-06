@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Img from "../components/Img";
 
+import Sobre from '../components/Sobre'
 const Descripcion = () => {
   const terms = [
     { text: "Developer", gradient: "text-red-800" },
@@ -44,7 +45,7 @@ const Descripcion = () => {
   }, [text, isDeleting, currentTermIndex, speed, terms]);
 
   return (
-    <main className="flex flex-col md:flex-row justify-start md:justify-center items-center min-h-screen text-white max-w-4xl mx-auto px-6 space-y-6 md:space-y-0 md:space-x-6 mt-20 md:mt-5 lg:-mt-60 ">
+    <main className="flex flex-col md:flex-row justify-start md:justify-center items-center min-h-screen text-white max-w-4xl mx-auto px-6 space-y-6 md:space-y-0 md:space-x-6 mt-20 md:mt-5 lg:-mt-60  ">
      
       <Img />
       <div>
@@ -62,6 +63,7 @@ const Descripcion = () => {
           <span className="inline-block w-1 h-8 bg-white ml-1 animate-blink font-semibold"></span>
         </h2>
       </div>
+     
     </main>
   );
 };
