@@ -7,7 +7,7 @@ const HomePage =() =>{
     <>
       <Header/>
       <Descripcion/>
-      <Img/>
+    
      
     </>
     )
