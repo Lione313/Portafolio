@@ -20,7 +20,7 @@ const Img: React.FC = () => {
           />
         </div>
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 text-white text-center font-semibold rounded-s-3xl	 transition-opacity duration-500">
-          <p className="text-xl">Mr. Chamba</p>
+          <p className="text-xl">Soy progrmador web </p>
         </div>
       </div>
 
@@ -37,7 +37,7 @@ const Img: React.FC = () => {
 
         @keyframes borderAnimate {
           0% {
-            border-color: #7f1d1d; /* Rojo similar al red-800 */
+            border-color: #7f1d1d; 
             box-shadow: 0 0 10px #7f1d1d, 0 0 20px #7f1d1d;
           }
           50% {
