@@ -8,14 +8,11 @@ const Sobre = () => {
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}
       className="text-white font-semibold text-xl text-center 
-                 mt-[-300px]  
-                 sm:mt-[20px]  
-                 md:mt-[-250px] 
-                 lg:mt-[-400px]  
-                 xl:mt-[-400px] 
-                 ml-[0rem] sm:ml-[1rem] md:ml-[6rem] lg:ml-[10rem] xl:ml-[14rem]"
+                 mt-[20px] sm:mt-[-350px] md:mt-[-350px] 
+                 lg:mt-[-400px] xl:mt-[-400px] 
+                 ml-0 sm:ml-[1rem] md:ml-[6rem] lg:ml-[10rem] xl:ml-[14rem]"
     >
-      Soy un estudiante tal tdwadawd
+      Soy un estudiante tal tal tal
     </motion.p>
   );
 };
