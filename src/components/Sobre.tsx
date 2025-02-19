@@ -8,11 +8,12 @@ const Sobre = () => {
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}
       className="text-white font-semibold text-xl text-center 
-                 mt-[-250px] ml-[0rem] 
-                 sm:mt-[-300px] sm:ml-[1rem] 
-                 md:mt-[-250px] md:ml-[6rem] 
-                 lg:mt-[-300px] lg:ml-[10rem] 
-                 xl:mt-[-450px] xl:ml-[14rem]"
+                 mt-[-300px]  
+                 sm:mt-[20px]  
+                 md:mt-[-250px] 
+                 lg:mt-[-400px]  
+                 xl:mt-[-400px] 
+                 ml-[0rem] sm:ml-[1rem] md:ml-[6rem] lg:ml-[10rem] xl:ml-[14rem]"
     >
       Soy un estudiante tal tal tal
     </motion.p>
